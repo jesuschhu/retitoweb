@@ -1,0 +1,67 @@
+/* Estilos básicos para la página de memes */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+/*R3I0Y2k0c1BvckVuc2XxYXJtZTRQcm9ncmFtYXJTMWx2NH0=*/
+.meme-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*a veces se bugea el stilo, cuidado*/
+.meme {
+    margin: 10px;
+    border: 2px solid #ff6f61;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+/*para qué hacerlo con css si puedo usar boostrap? como silva me enseñó?*/
+.meme:hover {
+    transform: scale(1.05);
+}
+
+.meme img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.meme p {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: #ff6f61;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
