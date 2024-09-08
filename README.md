@@ -1,2 +1,0 @@
-# retitoweb
-para el ctf
