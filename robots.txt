@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /private/  # Bloquea el acceso a la carpeta /private/
+Allow: /         
+# Q2liZXJTZWNVTkFTQU17Um9jaGl0YUIweGVhZG9yfQ==
